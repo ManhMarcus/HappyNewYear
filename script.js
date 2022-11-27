@@ -2306,3 +2306,4 @@ if (IS_HEADER) {
 		);
 	}, 0);
 }
+document.getElementById('autoplay').play();
