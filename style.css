@@ -26,6 +26,7 @@
   
    .textct{
         text-align: center; !important
+        font-size:0.8em; !important
   }
   .remove {
 	display: none !important;
