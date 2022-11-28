@@ -82,6 +82,9 @@
     top:-8px;
     display: block;
   }
+  .cover::selection{
+	background-color: #000;
+  }
   .audio-container{
 	  position: absolute;
 	  color: #ccc;
@@ -95,7 +98,16 @@
 	  color:#fff;
 	  display:block;
 	}
-	
+	.huongdan{
+		position: absolute;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin-top: 15px;
+		margin-left: 70px;
+	}
   .loading-init {
 	width: 100%;
 	align-self: center;
@@ -140,9 +152,9 @@
 	.cover{
 		margin-left: 30px;
 	}
-	  .cover::selection{
-	  	background-color:#000;
-	  }
+	.cover::selection{
+		color:#000;
+	}
 	.tester::before{
 		margin-left: 20px;
 	}
