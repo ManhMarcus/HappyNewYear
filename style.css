@@ -25,7 +25,7 @@
   }
   
    .textct{
-        text-align: center;
+        text-align: center; !important
   }
   .remove {
 	display: none !important;
