@@ -26,7 +26,6 @@
   
    .textct{
         text-align: center; !important
-        font-size:0.5em; !important
   }
   .remove {
 	display: none !important;
@@ -181,6 +180,9 @@
 		padding-bottom: 1px;
 		font-size: 1em;
 	}
+        .textct{
+               font-size: 0.5em; 
+        }
   }
   
   .canvas-container {
