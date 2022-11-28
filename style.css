@@ -24,6 +24,9 @@
 	visibility: hidden;
   }
   
+   .textct{
+        text-align: center;
+  }
   .remove {
 	display: none !important;
   }
